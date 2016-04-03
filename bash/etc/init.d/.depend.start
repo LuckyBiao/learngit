@@ -1,0 +1,5 @@
+TARGETS = bootlogs motd killprocs rsync sudo single rmnologin rc.local
+INTERACTIVE =
+single: killprocs bootlogs motd
+rmnologin: sudo bootlogs motd rsync
+rc.local: bootlogs motd rsync sudo
