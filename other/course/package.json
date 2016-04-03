@@ -1,0 +1,14 @@
+{
+  "name": "lab-project",
+  "version": "0.0.3",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "~1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imbooo",
+  "license": "BSD-2-Clause"
+}
